@@ -92,6 +92,7 @@ web.GotoURL("https://google.com", "tophf")
 web.input_text("//input[@name='q']","test")
 
 web.push_btn("//input[@value='Google zoeken']","sbfbl")
+#aaaa
 
 web.driver.save_screenshot('screen.png') # save a screenshot to disk
 
